@@ -1,0 +1,25 @@
+Test Case:
+  (.+) is listed when I Google for (.+)
+
+  Variables:
+    * Expected Result = $1
+    * Search Term     = $2
+
+  Script:
+    * Visit www.google.com
+    * Fill in the search field with <Search Term>
+    * Submit the search query
+    * The results page should show <Expected Result>
+
+
+Test Case:
+  I can get to the (.+) website through Google
+
+  Variables:
+    * Site Name = $1
+
+  Script:
+    * Visit www.google.com
+    * Fill in the search field with <Site Name>
+    * Submit the search query
+    * Click on the link named <Site Name>

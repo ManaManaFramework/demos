@@ -1,0 +1,13 @@
+Browse Stuff
+============
+
+  * <Expected Result> is listed when I Google for <Search Term>
+
+    Examples:
+      | Search Term   | Expected Result        |
+      |---------------|------------------------|
+      | Caturday      | I Can Has Cheezburger? |
+      | Weather in LA | Los Angeles Weather    |
+
+
+  * I can get to the Today is Caturday website through Google
