@@ -1,7 +1,3 @@
-require 'watir'
-require 'watir-webdriver'
-
-
 step /^Visit (.+)$/ do |url|
 
   browser.goto url
