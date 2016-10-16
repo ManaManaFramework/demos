@@ -7,7 +7,7 @@ Browse Stuff
       | Search Term   | Expected Result        |
       |---------------|------------------------|
       | Caturday      | I Can Has Cheezburger? |
-      | Weather in LA | Los Angeles Weather    |
+      | Weather in LA | Los Angeles            |
 
 
   * I can get to the Today is Caturday website through Google

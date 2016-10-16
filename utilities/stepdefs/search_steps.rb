@@ -26,6 +26,7 @@ end
 step /^The results page should show (.+)$/ do |search_result|
 
   browser.text.include? search_result
+  sleep 3
 
 end
 
